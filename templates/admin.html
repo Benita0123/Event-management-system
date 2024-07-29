@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+  <h2>Admin Details</h2>
+  <div class="admin-dashboard">
+    @app.route('/admin')
+    def admin():
+        if 'id' in session:
+            if session['id'] == 3:  
+                cursor = db.cursor()
+                cursor.execute("SELECT * FROM user")
+                user = cursor.fetchone() 
+        else:
+    <a href="/">back to home</a>
+  </div>
+  <footer>
+    <p>2024 ELEGANT EVENTS. All rights reserved.</p>
+</footer>
+</body>
+</html>
+

@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('pexels-padrinan-255379.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+h1{
+    color:black;
+    font-family: 'Playfair Display', serif;
+    font-size:3.4rem;
+    margin-bottom: 1px;
+    align-items:normal;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+}
+header h2 {
+    color:#333;
+    font-size: 2.0rem;
+    font-weight:500;
+    line-height: 2.0;
+}
+
+nav {
+    padding: 0px;
+    text-align: right;
+    
+}
+.navbar-align{
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:safe;
+    text-align: left;
+    margin: 0;
+
+}
+
+
+nav ul li a {
+    text-decoration:solid;
+    color:black;
+    padding: 30px; 
+    display:list-item;
+    align-items:center;
+    transition:linear;
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.432);
+    border-radius: 5px;
+}
+.card-image-size {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    padding:35px;
+    border-radius: 50px;
+    border-width: 20px;
+    border-color: white;
+    
+}
+.text-align{
+    text-align: center;
+}
+.image-align{
+    text-align: center;
+}
+
+.paragraph{
+    color:black;
+    font-family:'Times New Roman', Times, serif;
+    font-size:3.4rem;
+    margin-bottom: 5px;
+    align-items:normal;
+    font-weight: normal;
+    font-size:25px;
+    margin-top:10px;
+}
+.header-ing{
+color:black;
+    font-family: 'Playfair Display', serif;
+    font-size:3.4rem;
+    margin-bottom: 5px;
+    align-items:normal;
+    font-weight: bolder;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
