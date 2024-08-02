@@ -1,38 +1,17 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  body{
-    background-image: url('pexels-padrinan-255379.jpg');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    
-  }
-  .event-list{
-    list-style:square;
-    display: flex;
-    justify-content:safe;
-    text-align: left;
-    margin: 0;
-
-}
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p {
   margin: 0;
-  font-size: 0.9rem;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body
+{
+  background-image: url('pexels-nicole-michalou-5774925.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
 }
