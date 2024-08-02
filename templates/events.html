@@ -2,21 +2,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/css/events.css">
     <title>Events</title>
 </head>
 <body>
     <h1>Events</h1>
-    <h2>Events Data</h2>
+    
+
     <ul>
-        {% for event in events_data %}
-            <li>{{ event }}</li>
-        {% endfor %}
-    </ul>
-    <h2>User Data</h2>
-    <ul>
-        {% for user in user_data %}
-            <li>{{ user }}</li>
-        {% endfor %}
-    </ul>
+      {% for event in events_data %}
+          <li>
+              {{ event}}
+          </li>
+      {% endfor %}
+  </ul>
+  
+  
+    <h2 class="con">Thanks for visiting!</h2>
+    <a href="/">Back to home</a>
+    
+    <footer>
+        <p>2024 Elegant Events. All rights reserved.</p>
+    </footer>
+</body>
+</html>
 </body>
 </html>
