@@ -1,19 +1,22 @@
-
+<!-- events.html -->
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Events</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/events.css') }}">
+    <title>Events</title>
 </head>
 <body>
-  <h1>Events</h1>
-  <div class="events-info">
-  </div>
-  <a href="/">Back to home</a>
-</div>
-
-  <footer>
-    <p>2024 Elegant Events. All rights reserved.</p>
-</footer>
+    <h1>Events</h1>
+    <h2>Events Data</h2>
+    <ul>
+        {% for event in events_data %}
+            <li>{{ event }}</li>
+        {% endfor %}
+    </ul>
+    <h2>User Data</h2>
+    <ul>
+        {% for user in user_data %}
+            <li>{{ user }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>

@@ -95,7 +95,7 @@ def landing():
     return render_template('landing.html')
 
 
-@app.route('/signin')
+@app.route('/signin',methods=['GET', 'POST'])
 def signin():
     return render_template('signin.html')
 
