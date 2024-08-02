@@ -9,6 +9,12 @@
   <h1>User Profile</h1>
   <div class="profile-info">
   </div>
+  <h2>User Data</h2>
+  <ul>
+      {% for user in user_data %}
+          <li>{{ user }}</li>
+      {% endfor %}
+  </ul>
   <a href="/">Back to home</a>
 </div>
 
